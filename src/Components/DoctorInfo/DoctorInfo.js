@@ -77,7 +77,7 @@ const DoctorInfo = () => {
                         <p>Your Name</p>
                         <input type='text' className="form-control" placeholder='Name'></input>
                         <p>Your Phone</p>
-                        <input type='number' className="form-control" placeholder='Phone'></input>
+                        <input type='phone' className="form-control" placeholder='Phone'></input>
                         <p>Comment</p>
                         <form action="#" className="panel-activity__status">
                             <textarea name="user_activity" placeholder="Share what you've been up to..." className="form-control"></textarea>

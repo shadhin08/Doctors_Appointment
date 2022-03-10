@@ -277,7 +277,7 @@ const doctors=
         username: "Bret",
         email: "Sincere@april.biz",
         photo: id_11,
-        categorie: "Hematologists",
+        categorie: "Dermatologists",
         address: {
           street: "Kulas Light",
           suite: "Apt. 556",
@@ -1027,7 +1027,7 @@ const doctors=
           username: "Antonette",
           email: "Shanna@melissa.tv",
           photo: id_2,
-          categorie: "Immunologists",
+          categorie: "Pathologists",
           address: {
             street: "Victor Plains",
             suite: "Suite 879",

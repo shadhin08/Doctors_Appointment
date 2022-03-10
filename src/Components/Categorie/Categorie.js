@@ -20,7 +20,7 @@ const Categorie = () => {
             <div className="p-3 mb-2 bg-secondary text-white">
                 <h3 className="text-center ">{categorie}</h3>
             </div>
-            <div className="d-flex flex-row flex-wrap">
+            <div className="d-flex flex-row flex-wrap justify-content-center">
             {
                 doctorList.map(doctor=><DoctorList doctorDetail={doctor} key={doctor.id}></DoctorList>)
             }
