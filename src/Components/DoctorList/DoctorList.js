@@ -4,6 +4,7 @@ import './DoctorList.css';
 const DoctorList = (props) => {
     // console.log(props.doctorDetail);
     const {name, address, username, photo, categorie}=props.doctorDetail;
+    // console.log(categorie, username);
     return (
         <div>
             <div className="card" style={{width: "18rem", margin: "5px"}}>

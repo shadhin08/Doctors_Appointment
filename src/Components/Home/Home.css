@@ -1,3 +1,27 @@
+*
+{
+    box-sizing: border-box;
+}
+@media (min-width: 550px) {
+    .categorie
+    {
+        width: 45%;
+        margin-right: 30px;
+    }
+    .allDoctors
+    {
+        width: 50%;
+        height: 800px;
+        overflow: auto;
+        scroll-behavior: smooth;
+        margin-top: 90px;
+        border-left: 1px dotted gray;
+    }
+    .main
+    {
+        display: flex;
+    }
+}
 .categorie
 {
     margin-top: 90px;

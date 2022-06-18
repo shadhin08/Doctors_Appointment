@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import doctors from '../../Data/DoctorDetail';
+import "./Categories.css";
 
 const Categories = (props) => {
     // console.log(props);
@@ -11,7 +12,7 @@ const Categories = (props) => {
         setDoctorList(doctorsInCategorie);
     }, [])
     return (
-        <div>
+        <div className='ctstyle'>
             <Link to={"/categorie/"+props.ctName} style={{ textDecoration: 'none' }}>
                 <ol>
                     <li className="list-group-item d-flex justify-content-between align-items-start">
